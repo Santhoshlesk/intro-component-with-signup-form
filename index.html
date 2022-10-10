@@ -1,0 +1,47 @@
+<! Doctype Html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="index.css" rel="stylesheet">
+	</head>
+	<script>
+		function demoVisibility() {
+		document.getElementById("myP2").style.display = "block";
+		}
+	</script>
+	<body>
+		<main>
+			<section id="sec1">
+				<div class="sec1-div">
+					<h1>
+					Learn to code by watching others
+				</h1>
+				<p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+				but understanding how developers think is invaluable.</p>
+				</div>
+			</section><!--
+			--><section id="sec2">
+				<div class="sec2-div1">
+					<button>Try it free 7 days then $20/mo. there after</button>
+					<br>
+					<br>
+					<div class="sec2-div2">
+						<form id="div-form">
+							<input type="text" name="fname" autofocus class="form-input" placeholder="Frist Name">
+							<p id="myP2">First name cannot Empty</p>
+							<input type="text" name="lname" class="form-input" placeholder="Last Name">
+							<p>First name cannot Empty</p>
+							<input type="email" name="Email" class="form-input" placeholder="Email">
+							<p >First name cannot Empty</p>
+							<input type="password" name="pass" class="form-input" placeholder="Password">
+							<p >First name cannot Empty</p>
+							<button class="form-input"  onclick="demoVisibility()">Claim your Free trial</button>
+							<h3 class="div-form-d3">By clicking the button, you are agreeing to our <a href="">Terms and Services</a></h3>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
